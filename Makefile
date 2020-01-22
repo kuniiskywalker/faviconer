@@ -13,6 +13,7 @@ test:
 .PHONY: test
 
 test-upload: test build package
+	python -m readme_renderer README.rst
 	twine upload --repository testpypi dist/*
 .PHONY: test-upload
 
@@ -20,7 +21,8 @@ test-install:
 	pip --no-cache-dir install --upgrade --index-url https://test.pypi.org/simple/ faviconer
 .PHONY: test-install
 
-production-upload:
+production-upload: test build package
+	python -m readme_renderer README.rst
 	twine upload --repository pypi dist/*
 .PHONY: production-upload
 
