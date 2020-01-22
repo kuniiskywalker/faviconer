@@ -10,24 +10,24 @@ pip install faviconer
 
 ### Get favicon.ico
 
-from faviconer import *
+import faviconer
 
-get_favicon("http://google.com/")
+faviconer.get("http://google.com/")
 
 'http://google.com/favicon.ico'
 
 ### Get favicon.ico by url
 
-from faviconer import *
+import faviconer
 
-get_favicon_by_url("http://google.com/")
+get_by_url("http://google.com/")
 
 'http://google.com/favicon.ico'
 
 ### Get favicon.ico by html
 
-from faviconer import *
+import faviconer
 
-get_favicon_by_html('<html><head><link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico"></head><body></body</html>')
+get_by_html('<html><head><link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico"></head><body></body</html>')
 
 'https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico'
