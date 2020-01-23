@@ -2,6 +2,8 @@
 faviconer
 ================
 
+[![CircleCI](https://circleci.com/gh/kuniiskywalker/faviconer.svg?style=svg)](https://circleci.com/gh/kuniiskywalker/faviconer)
+
 What is this?
 ================
 
@@ -22,6 +24,7 @@ Get favicon.ico:
 Get /favicon.ico if there is no explicit favicon url specified in the meta tag of the target site
 
 When the favicon url is specified in the meta tag
+
 .. code-block:: python
 
     >>> import faviconer
@@ -29,6 +32,7 @@ When the favicon url is specified in the meta tag
     'https://example.com/image/icon.png'
 
 When there is no specific URL specified in the meta tag
+
 .. code-block:: python
 
     >>> import faviconer
@@ -36,8 +40,6 @@ When there is no specific URL specified in the meta tag
     'https://example.com/favicon.ico'
 
 Get favicon.ico by url:
-
-Get /favicon.ico
 
 .. code-block:: python
 
