@@ -2,7 +2,8 @@
 faviconer
 ================
 
-[![CircleCI](https://circleci.com/gh/kuniiskywalker/faviconer.svg?style=svg)](https://circleci.com/gh/kuniiskywalker/faviconer)
+.. image:: https://circleci.com/gh/kuniiskywalker/faviconer.svg?style=svg
+    :target: https://circleci.com/gh/kuniiskywalker/faviconer
 
 What is this?
 ================
