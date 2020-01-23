@@ -2,6 +2,10 @@ build:
 	python setup.py build
 .PHONY: build
 
+link-pypi:
+	ln -s pypirc ~/.pypirc
+.PHONY: link-pypi
+
 package:
 	rm -f -r src/.egg-info/* dist/*
 	python setup.py sdist
@@ -11,6 +15,11 @@ package:
 test:
 	python setup.py test
 .PHONY: test
+
+local-install: build
+	cd build
+	pip install -e .
+.PHONY: local-install
 
 test-upload: test build package
 	python -m readme_renderer README.rst
