@@ -8,7 +8,19 @@ faviconer
 What is this?
 ================
 
-This is a package to get a nice favicon from a website
+This is a package to get a nice favicon from a website or dom.
+
+Installs
+================
+
+.. image:: https://pepy.tech/badge/faviconer
+    :target: https://pepy.tech/project/faviconer
+
+.. image:: https://pepy.tech/badge/faviconer/month
+    :target: https://pepy.tech/project/faviconer
+
+.. image:: https://pepy.tech/badge/faviconer/week
+    :target: https://pepy.tech/project/faviconer
 
 Installation
 ================
