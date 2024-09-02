@@ -3,3 +3,4 @@ src/faviconer.egg-info
 .idea
 __pycache__
 build
+.eggs
